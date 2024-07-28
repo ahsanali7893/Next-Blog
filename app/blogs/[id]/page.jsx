@@ -12,7 +12,7 @@ import {
   FaTwitter
 } from "react-icons/fa6";
 
-export default function page({ params }) {
+export default function Slug({ params }) {
   const [data, setData] = useState(null);
   const fetchBlogData = async () => {
     const response = await axios.get("/api/blog", {

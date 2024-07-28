@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { FaSpinner } from "react-icons/fa6";
 import { toast } from "react-toastify";
 
-export default function addProduct() {
+export default function AddProduct() {
   const [image, setImage] = useState(false);
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState({

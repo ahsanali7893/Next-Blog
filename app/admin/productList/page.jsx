@@ -4,7 +4,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 
-export default function productList() {
+export default function ProductList() {
   const [blogs, setBlogs] = useState([]);
   const fetchBlogs = async () => {
     const response = await axios.get("/api/blog");
